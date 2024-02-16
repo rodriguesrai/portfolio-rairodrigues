@@ -1,0 +1,27 @@
+# Arquivos de Log
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diretórios de Build
+dist/
+dist-ssr/
+
+# Arquivos locais específicos
+*.local
+
+# Diretórios e arquivos de Configuração do Editor
+.vscode/
+.idea/
+.DS_Store/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos SWC
+*.sw?
