@@ -1,14 +1,10 @@
-import { Link } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
+import Header from './Header/Header'
 
 export default function Layout() {
   return (
     <>
-      <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/blog'>Blog</Link>
-        <Link to='/users'>Users</Link>
-      </nav>
+      <Header />
       <main>
         <Outlet />
       </main>
